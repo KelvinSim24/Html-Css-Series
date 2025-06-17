@@ -1,0 +1,42 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 330px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail {
+    width: 200px;
+    height: 210px;
+    margin-bottom: 0;
+}
+
+.name {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.mutual-friend {
+    font-size: medium;
+    color: gray;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.add-friend {
+    width: 110px;
+    height: 30px;
+    background-color: rgba(42, 108, 206, 0.979);
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
