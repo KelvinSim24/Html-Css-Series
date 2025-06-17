@@ -7,6 +7,10 @@ This repository contains my personal HTML and CSS projects completed during fron
 - **YouTube Website Clone**  
   A front-end layout of YouTube, designed to resemble the original interface. The project focuses on layout structuring, CSS styling, and responsive design techniques.
 
+
+![YouTube Clone Screenshot](images/Youtube-HomePage.png)
+
+
 ## 🛠️ Tools & Technologies
 
 - HTML
