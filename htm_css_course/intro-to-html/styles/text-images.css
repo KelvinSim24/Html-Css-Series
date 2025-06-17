@@ -1,0 +1,56 @@
+        .search-bar2 {
+            border-radius: 2px;
+            margin-left: 60px;
+        }
+
+        .search-bar3 {
+            font-size: 16px;
+            width: 500px;
+            border: none;
+            padding-top: 12px;
+            padding-left: 30px;
+            padding-bottom: 12px;
+            padding-right: 15px;
+            border-radius: 30px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .itachi {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+            vertical-align: middle;
+            margin-right: 5px;
+            margin-top: 20px;
+        }
+
+        .tweet {
+            font-size: 18px;
+            border: none;
+            width: 300px;
+            color: grey;
+            vertical-align: middle;
+            margin-top: 20px;
+        }
+
+        .tweet-button {
+            width: 100px;
+            height: 30px;
+            border-radius: 30px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border: none;
+            background-color: rgb(29, 155, 240);
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-weight: bold;
+            vertical-align: middle;
+            margin-left: 20px;
+        }

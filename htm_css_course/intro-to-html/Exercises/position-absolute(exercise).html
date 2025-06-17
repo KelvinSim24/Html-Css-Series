@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Position Absolute Practice
+    </title>
+
+    <style>
+        .close-button-container {
+            position: absolute;
+            top: -15px;
+            left: -15px;
+        }
+
+        .close-button {
+            height: 45px;
+            width: 45px;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color: black;
+            color: white;
+            object-fit: cover;
+            border-radius: 26px;
+            font-size: x-large;
+            border: none;
+
+        }
+
+        .q15b {
+            width: 320px;
+            height: 180px;
+            background-color: gray;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        .time {
+            position: absolute;
+            background-color: black;
+            color: white;
+            padding: 5px;
+            font-family: ROboto, arial;
+            font-size: medium;
+            right: 10px;
+            bottom: 10px;
+        }
+
+        .container {
+            position: relative;
+            height: 100vh;
+        }
+
+        .full-image {
+            position: absolute;
+            width: 200px;
+            height: 250px;
+            display: inline-block;
+            bottom: 15px;
+            left: 15px;
+
+        }
+
+        .naruto {
+            height: 250px;
+            width: 200px;
+            bottom: 0px;
+            left: 0px;
+        }
+
+        .offer {
+            position: absolute;
+            background-color: black;
+            color: white;
+            top: 15px;
+            right: 0px;
+            padding: 10px;
+            font-family: Arial;
+            font-size: 13px;
+        }
+
+        .button-container {
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 100px;
+            background-color: rgba(181, 169, 169, 0.5);
+            position: absolute;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .button {
+            background-color: white;
+            color: black;
+            padding-left: 9px;
+            padding-right: 9px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            top: 35px;
+            position: absolute;
+            font-size: small;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="full-image">
+        <img class="naruto" src="/intro-to-html/image/sasuke.jpg">
+        <div class="offer">
+            20% OFF
+        </div>
+        <div class="button-container">
+            <button class="button">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div>
+        <div class="close-button-container">
+            <button class="close-button">X</button>
+        </div>
+    </div>
+
+    <div class="q15b">
+        <div class="close-button-container">
+            <button class="close-button">
+                X
+            </button>
+        </div>
+        <div class="time">
+            0:29
+        </div>
+    </div>
+
+
+</body>
+
+</html>

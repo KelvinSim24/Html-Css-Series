@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        FlexBox Challenge
+    </title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        .header {
+            display: flex;
+            border: 1;
+            background-color: blueviolet;
+            padding: 10px;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .left {
+            color: white;
+        }
+
+        .search {
+            border-radius: 30px;
+            border: none;
+            width: 450px;
+            padding: 10px;
+            padding-left: 20px;
+        }
+
+        .button {
+            background-color: blueviolet;
+            color: white;
+            border-color: white;
+            border-width: 1px;
+            padding: 10px;
+        }
+
+        .message {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            line-height: 35px;
+            width: 300px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+
+        .first-left {
+            margin-left: 10px;
+        }
+
+
+
+        .b1,
+        .b2,
+        .b3 {
+            background-color: rgb(62, 115, 239);
+            color: white;
+            border-radius: 30px;
+            border: none;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="left">Home</div>
+        <div class="middle">
+            <input type="text" placeholder="Search" class="search">
+        </div>
+        <div class="right">
+            <button class="button">Download</button>
+        </div>
+    </div>
+
+
+    <div class="message">
+        <div class="first-left">
+            Home
+            <button class="b1">14</button>
+        </div>
+        <div class="second-row">
+            Notifications
+            <button class="b2"> 3 </button>
+        </div>
+        <div class="third-row">
+            Messages
+            <button class="b3">5</button>
+        </div>
+    </div>
+</body>
+
+</html>
